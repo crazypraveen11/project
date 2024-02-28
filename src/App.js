@@ -1,4 +1,5 @@
 // import { Homepage } from "./homepage"; 
+import { Createtable } from "./mui table";
 import { Styled } from "./styledcomponents";
 
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
     <Styled />
+    <Createtable />
     {/* <Homepage /> */}
     {/* <Typo /> */}
     
