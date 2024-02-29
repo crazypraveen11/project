@@ -9,7 +9,7 @@ export var Styled = () =>{
             color:'whitesmoke',
             "&:hover":{
                 backgroundColor:'whitesmoke',
-                color:'red'
+                color:'red',
             }
         }
     )

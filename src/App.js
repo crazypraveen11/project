@@ -1,9 +1,13 @@
 // import { Homepage } from "./homepage"; 
-import { Createtable } from "./mui table";
-import { Styled } from "./styledcomponents";
+// import { Createtable } from "./mui table";
+// import { Styled } from "./styledcomponents";
+// import { Createstyle } from "./Styledcomponents/style.js";
 
+import { Form } from "./formMUI";
 
+// import { Muiform } from "./muiform";
 
+ 
 // import { Typo } from "./typography";
 
 
@@ -11,8 +15,11 @@ import { Styled } from "./styledcomponents";
 function App() {
   return (
     <>
-    <Styled />
+    <Form />
+    {/* <Muiform /> */}
+    {/* <Styled />
     <Createtable />
+    <Createstyle /> */}
     {/* <Homepage /> */}
     {/* <Typo /> */}
     
