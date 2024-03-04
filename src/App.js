@@ -3,7 +3,9 @@
 // import { Styled } from "./styledcomponents";
 // import { Createstyle } from "./Styledcomponents/style.js";
 
-import { Form } from "./formMUI";
+import { Navigation } from "./appbar";
+
+// import { Form } from "./formMUI";
 
 // import { Muiform } from "./muiform";
 
@@ -15,7 +17,8 @@ import { Form } from "./formMUI";
 function App() {
   return (
     <>
-    <Form />
+    <Navigation />
+    {/* <Form /> */}
     {/* <Muiform /> */}
     {/* <Styled />
     <Createtable />

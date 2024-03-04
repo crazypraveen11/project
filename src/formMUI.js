@@ -7,7 +7,7 @@ export var Form =() =>{
 
     return(
         <>
-    <Typography sx={{backgroundColor:'wheat'}}>
+    <Typography sx={{backgroundColor:'wheat',minWidth:600}}>
 
           <Typography variant="h3" align="center" color='error' sx={{textDecoration:'underline'}} >
                FORM
@@ -15,8 +15,9 @@ export var Form =() =>{
 
         
          <Typography align="center">
-            <TextField variant="outlined" label='Name' color="warning" helperText='Enter Your Name' required  /><br/><br/>
-            <TextField variant="outlined" label='Age' color="warning" helperText='Enter Your Age' required /><br/><br/>
+            <TextField variant="outlined" label='Name' type="text" color="warning" helperText='Enter Your Name' required  /><br/><br/>
+            <TextField variant="outlined" label='Age' type='number' color="warning" helperText='Enter Your Age' required /><br/><br/>
+            <TextField variant="outlined" label='Email' type='email' color="warning" helperText="Enter Your Mail Id" required /><br/><br/>
 
             <Typography variant="label">Gender :
                <FormControl>
@@ -28,7 +29,7 @@ export var Form =() =>{
                </FormControl>
             </Typography><br/>
 
-           <TextField variant="outlined" label='Address' color="warning" helperText='Enter Your Address' required  /><br/><br/>
+           <TextField variant="outlined" label='Address' type="text" color="warning" helperText='Enter Your Address' required  /><br/><br/>
 
            <FormControl variant="standard" sx={{ minWidth: 180}}>
             <InputLabel>Interested Subject</InputLabel>
@@ -64,7 +65,6 @@ export var Form =() =>{
                 >Submit
              </Button>
               <br/><br/>
-
         </Typography>
    </Typography>
         </>
